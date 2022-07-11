@@ -1,11 +1,10 @@
 body {
-    background-color: #f3f2ee;
-    
-  }
-
-.btn-primary {
-    color: #fff;
-    background-color: #ee7516;
-    border-color: #ee7516;
-    margin: 50px;
+  background-color: #c5a41e;
 }
+.card-title{
+text-align: center;
+}
+.card-body{
+text-align: center;
+}
+
