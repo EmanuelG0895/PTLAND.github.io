@@ -1,0 +1,54 @@
+body {
+    background-color: cadetblue;
+}
+.color-boton{
+    background-color: black;
+    color:white;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(41, 50, 58);
+    background-color: rgb(228, 191, 144, 0.5);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+        /** derecha**/  
+    box-shadow: 18px 5px 42px -1px rgba(143,137,143,1);
+
+}
+
+.tabla_contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+body{
+    background-image: url("Img/patitas.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.content{
+    background-color: rgb(236, 167, 63);
+}
+
+.carouselid{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    
+}
