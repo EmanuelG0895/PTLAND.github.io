@@ -1,0 +1,19 @@
+body{
+    background-image: url("Img/patitas.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.navbar-nav .nav-link{
+    padding-left:10px !important;
+    padding-right: 10px !important;
+    color: black;
+}
+.navbar-brand{
+    
+}
+.bienvenida{
+    background-image: url("../Bootstrap/Img/gat1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
