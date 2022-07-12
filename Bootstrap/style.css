@@ -1,19 +1,36 @@
-body{
-    background-image: url("Img/patitas.jpeg");
-    background-repeat: repeat;
-    background-size: cover;
-}
-.navbar-nav .nav-link{
-    padding-left:10px !important;
-    padding-right: 10px !important;
-    color: black;
-}
-.navbar-brand{
-    
-}
-.bienvenida{
-    background-image: url("../Bootstrap/Img/gat1.jpeg");
+body {
+    background-image: url("../Bootstrap/Img/patitas.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+}
+
+.contenedor-padre {
+    display: flex;
+    justify-content: center;
+}
+
+.quienesSomos {
+    /**background-color: #FF813E;**/
+    color: white;
+    font-weight: bold;
+    padding: 15px;   
+    text-align: center;
+    font-size: 22px;
+}
+
+@media  (max-width: 600px) {
+    .quienesSomos{
+        font-size: 12px;
+    }
+    body{
+        background-repeat: repeat;
+    }
+    .contenedor-botones{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    }
+    
 }
