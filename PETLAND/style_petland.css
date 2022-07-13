@@ -1,35 +1,44 @@
 body {
   background-image: url("../PETLAND/imagenes/fondo.jpeg") !important;
-  background-repeat:repeat;
+  background-repeat: repeat;
   background-size: cover;
-  
-}
-.card-title{
-text-align: center;
-}
-.card-body{
-text-align: center;
-background-color: #f3f2ee;
-}
-.img-card{
-  width: 100%;
-  height:auto;
-  border-top-left-radius:8px ;
-  border-top-right-radius: 8px;
-  height:159.41px;
 }
 
-.tarjeta{
+.card-title {
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+  background-color: #f3f2ee;
+}
+
+.img-card {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 159.41px;
+}
+
+.tarjeta {
   width: 18rem;
   margin-top: 50px;
   border: solid;
-  border-color:#fecb72;
+  border-color: #fecb72;
   border-radius: 8px;
 }
 
-.img-thumbnail{
+.img-thumbnail {
   align-content: center;
   justify-content: center;
+
 }
 
+@media (max-width: 600px) {
 
+  .fila-perritos {
+    display: flex;
+    flex-direction: column;
+  }
+}
