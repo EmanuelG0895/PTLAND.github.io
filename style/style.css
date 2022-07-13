@@ -1,0 +1,53 @@
+body {
+    background-image: url("../img/patitas.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-padre {
+    display: flex;
+    justify-content: center;
+}
+
+.quienesSomos {
+    /**background-color: #FF813E;**/
+    color: white;
+    font-weight: bold;
+    padding: 15px;   
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.contenedor-botones{
+    text-align: center
+
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ @media  (max-width:600px)  {
+    .quienesSomos{
+        font-size: 12px;
+    }
+    body{
+        background-repeat: repeat;
+    }
+      
+  
+}
+@media  (max-width:768px)  {
+    .quienesSomos{
+        font-size: 12px;
+    }
+    body{
+        background-repeat: repeat;
+    }
+      
+  
+}
+
