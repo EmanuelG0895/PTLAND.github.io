@@ -25,3 +25,11 @@ background-color: #f3f2ee;
   border-color:#fecb72;
   border-radius: 8px;
 }
+
+@media (max-width: 600px) {
+
+  .fila-gatos {
+    display: flex;
+    flex-direction: column;
+  }
+}
