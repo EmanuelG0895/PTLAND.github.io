@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_petland.css">
+  <link rel="stylesheet" href="../PETLAND/Style/botstrap.min.css">
+  <title>PETLAND</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="img/logo.jpeg" width="30" height="30" class="d-inline-block align-top">
+    <a class="navbar-brand" href="#">PETLAND</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Perros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Dar en adopción</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row fila-perritos">
+      <div class="col-4">
+        <div class="tarjeta">
+          <img src="imagenes/dante.jpg" class="img-card" />
+          <div class="card-body">
+            <h5 class="card-title">Dante</h5>
+            <tr class="card-text">
+              <td>Talla: Mediada</td>
+              <td>Sexo: Macho</td>
+              <td>Edad: 2 años</td>
+            </tr>
+            <div class="contenedor-botones">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                data-target=".modaldante">CONOCEME</button>
+              <div class="modal fade modaldante" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="container contenedor-desciption">
+                      <div class="row contenedor-fila">
+                        <div class="col-md-6">
+                          <img src="imagenes/dante.jpg" class="img-thumbnail" width="1500" height="1500">
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+
+                            <h5 class="card-title">Dante</h5>
+
+                            <p class="card-text">En San José, un taller mecánico usaba a Dante, un perrito, como
+                              guardián del negocio.
+                              Dante pasaba días con una cadena al cuello que era tan corta, que no podía bajar su cabeza
+                              y raramente recibía alimento.
+                              Por fortuna, Dante fue rescatada por la asociación Territorio de Zaguates.
+                              Poco después de llegar al refugio, varios animales fueron envenenados y 16 de ellos
+                              murieron.
+                              Dante sobrevivió, pero sufrió varios problemas neurológicos. Hoy, vive acogido y comienza
+                              a recuperarse.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                          <a class="btn btn-warning" href="...">ADOPTAME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-secondary" href="...">ADOPTAME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="tarjeta">
+          <img src="imagenes/Laica.jpeg" class="img-card" />
+          <div class="card-body">
+            <h5 class="card-title">Laica</h5>
+            <tr class="card-text">
+              <td>Talla: Pequeña</td>
+              <td>Sexo: Hembra</td>
+              <td>Edad: 1 año</td>
+            </tr>
+            <div class="contenedor-botones">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                data-target=".modallaica">CONOCEME</button>
+              <div class="modal fade modallaica" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="container contenedor-desciption">
+                      <div class="row contenedor-fila">
+                        <div class="col-md-6">
+                          <img src="imagenes/Laica.jpeg" class="img-thumbnail" width="1500" height="1500">
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Laica</h5>
+                            <p class="card-text">Fue rescatada por un grupo de cuidados para perros en una situación
+                              algo triste la que no podía caminar por una lesión en su columna y cadera.
+                              Laica nunca se rindió hasta que por fin dio sus primeros pasos por el camino correcto.
+                              A pesar de que se puede notar la displasia de cadera Laica es capaz de caminar y correr
+                              como cualquier otro perro y está muy feliz en el refugio.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                          <a class="btn btn-warning" href="...">ADOPTAME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-secondary" href="...">ADOPTAME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="tarjeta">
+          <img src="imagenes/Lua.jpg" class="img-card img3" />
+          <div class="card-body">
+            <h5 class="card-title">Lua</h5>
+            <tr class="card-text">
+              <td>Talla: Pequeña</td>
+              <td>Sexo: Hembra</td>
+              <td>Edad: 4 meses</td>
+            </tr>
+            <div class="contenedor-botones">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                data-target=".modallua">CONOCEME</button>
+              <div class="modal fade modallua" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="container contenedor-desciption">
+                      <div class="row contenedor-fila">
+                        <div class="col-md-6">
+                          <img src="imagenes/Lua.jpg" class="img-thumbnail" width="1500" height="1500">
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Lua</h5>
+                            <p class="card-text">Otra perrita que fue marcada por la indiferencia, fue rescatada por un
+                              grupo de cuidados para perros en una situación algo triste la que no podía caminar por una
+                              lesión en su columna y cadera.
+                              Lua nunca se rindió hasta que por fin dio sus primeros pasos por el camino correcto.
+                              A pesar de que se puede notar la displasia de cadera Lucero es capaz de caminar y correr
+                              como cualquier otro perro y está muy feliz en el refugio.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                          <a class="btn btn-warning" href="...">ADOPTAME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-secondary" href="...">ADOPTAME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row fila-perritos">
+      <div class="col-4">
+        <div class="tarjeta">
+          <img src="imagenes/Negro.jpg" class="img-card img4" />
+          <div class="card-body">
+            <h5 class="card-title">Negro</h5>
+            <tr class="card-text">
+              <td>Talla: Mediana</td>
+              <td>Sexo: Macho</td>
+              <td>Edad: 4 años</td>
+            </tr>
+            <div class="contenedor-botones">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                data-target=".modalnegro">CONOCEME</button>
+              <div class="modal fade modalnegro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="container contenedor-desciption">
+                      <div class="row contenedor-fila">
+                        <div class="col-md-6">
+                          <img src="imagenes/Negro.jpg" class="img-thumbnail" width="1500" height="1500">
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Negro</h5>
+                            <p class="card-text">En 2018, encontraron a un pequeño cachorro vagando por las calles. Sus
+                              rescatistas lo llamaron Negro, debido al aspecto atemorizante que tenía, provocado por una
+                              infección en los ojos.
+                              Negro tenia pulgas, garrapatas y estaba a punto de morir de hambre. Poco a poco fue
+                              recuperando la salud y encontró una nueva familia temporal ¡su transformación es realmente
+                              increíble!</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                          <a class="btn btn-warning" href="...">ADOPTAME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-secondary" href="...">ADOPTAME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="tarjeta">
+          <img src="imagenes/Noa.jpeg" class="img-card img5" />
+          <div class="card-body">
+            <h5 class="card-title">Noa</h5>
+            <tr class="card-text">
+              <td>Talla: Pequeña</td>
+              <td>Sexo: Macho</td>
+              <td>Edad: 1 año</td>
+            </tr>
+            <div class="contenedor-botones">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                data-target=".modalnoa">CONOCEME</button>
+              <div class="modal fade modalnoa" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="container contenedor-desciption">
+                      <div class="row contenedor-fila">
+                        <div class="col-md-6">
+                          <img src="imagenes/Noa.jpeg" class="img-thumbnail" width="1500" height="1500">
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Noa</h5>
+                            <p class="card-text">Lo encontraron en un estado muy crítico, realmente era muy difícil
+                              pensar que podía salvarse, padecía de sarna, desnutrición extrema entre otras infecciones,
+                              pero con ayuda de buenas personas y las ganas de vivir de este hermoso perrito pudo vencer
+                              a la muerte.
+                              Después de unos cuantos meses de su recuperación, ya está feliz y corriendo por el jardín
+                              con otros perros.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                          <a class="btn btn-warning" href="...">ADOPTAME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-secondary" href="...">ADOPTAME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="tarjeta">
+          <img src="imagenes/Rocki.jpeg" class="img-card img6" />
+          <div class="card-body">
+            <h5 class="card-title">Rocki</h5>
+            <tr class="card-text">
+              <td>Talla: Mediana</td>
+              <td>Sexo: Macho</td>
+              <td>Edad: 1 año</td>
+            </tr>
+            <div class="contenedor-botones">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                data-target=".modalrocki">CONOCEME</button>
+              <div class="modal fade modalrocki" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="container contenedor-desciption">
+                      <div class="row contenedor-fila">
+                        <div class="col-md-6">
+                          <img src="imagenes/Rocki.jpeg" class="img-thumbnail" width="1500" height="1500">
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title">Rocki</h5>
+                            <p class="card-text">Su nombre es Rocki, quien fue recibido por un grupo veterinario porque
+                              estaba en situación de riesgo. Vivía en la calle y se refugiaba de vez en cuando en una
+                              caja de de cartón, su cuerpo estaba marcado por el abandono, el sufrimiento e
+                              indiferencia.
+                              Padecía de moquillo, parásitos sarna desnutrición y otras enfermedades, es muy triste ver
+                              el estado tan deprimente de un animal que no tiene la culpa de nada. Durante el primer año
+                              Rocki estaba en muy mal estado, no se sabía con seguridad si podía salvarse.
+                              Después de un tiempo Rocki fue mejorando notoriamente, y empezaron a verse los resultados
+                              positivos del cuidado intensivo al que fue sometido.</p>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+                          <a class="btn btn-warning" href="...">ADOPTAME</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-secondary" href="...">ADOPTAME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="JavaScript/jquery.slim.min.js"></script>
+<script src="JavaScript/poper.js"></script>
+<script src="JavaScript/bootstrap.js"></script>
+
+</html>

@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <title>Formulario</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="img/logo.jpeg" width="30" height="30" class="d-inline-block align-top">
+        <a class="navbar-brand" href="#">PETLAND</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Dar en adopción</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <h3>Formato para ADOPTAR</h3>
     <form>
         <h2>
@@ -298,9 +322,6 @@
                 <br /><input type="radio" name="pregunta14" value="Otro" /> Otro
             </p>
         </div>
-
-
-
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
 </body>
