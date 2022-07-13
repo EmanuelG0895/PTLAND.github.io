@@ -16,6 +16,7 @@ background-color: #f3f2ee;
   height:auto;
   border-top-left-radius:8px ;
   border-top-right-radius: 8px;
+  height:159.41px;
 }
 
 .tarjeta{
@@ -30,3 +31,5 @@ background-color: #f3f2ee;
   align-content: center;
   justify-content: center;
 }
+
+
