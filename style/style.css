@@ -20,12 +20,20 @@ body {
 
 
 .contenedor-botones{
-    text-align: center
+    text-align: center;
 
 }
 .collapse{
     display: flex;
     justify-content: center;
+}
+.boton2{
+    text-align: center;
+    margin-top: 25px;
+}
+.boton{
+    margin: 50px;
+   
 }
 
 
@@ -37,7 +45,9 @@ body {
     body{
         background-repeat: repeat;
     }
-      
+    .boton{
+        margin: 10px;
+    }
   
 }
 @media  (max-width:768px)  {
