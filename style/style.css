@@ -16,6 +16,8 @@ body {
     padding: 15px;   
     text-align: center;
     font-size: 22px;
+    background-color: #dd7934;
+    -moz-opacity:.70;opacity:.70;
 }
 
 
@@ -35,6 +37,7 @@ body {
     margin: 50px;
    
 }
+
 
 
 
