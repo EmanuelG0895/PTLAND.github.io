@@ -30,14 +30,20 @@ body {
     justify-content: center;
 }
 
+
+.boton {
+    margin: 50px;
+
+}
+
 .boton2 {
     text-align: center;
     margin-top: 25px;
 }
 
-.boton {
-    margin: 50px;
-
+.boton3{
+    color: black;
+    margin: 25px;
 }
 
 @media (max-width:600px) {
