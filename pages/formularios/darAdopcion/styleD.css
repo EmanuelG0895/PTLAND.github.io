@@ -1,17 +1,13 @@
-
-body{
-    background-image: url("../img/fondo.jpeg");
-    background-repeat: repeat;
-    color: rgb(255, 255, 255);
-    font-size:large;
-    padding: 30px;
-
-}
 h1{
     text-align: center;
+    
 }
-.especie{
-    text-align: justify;
+p{
+    text-align: center;
+    
+}
+img{
+    height:250px;
 }
 textarea {
     -webkit-box-sizing: border-box;
@@ -20,13 +16,23 @@ textarea {
 
     width: 100%;
 }
+body{
+    background-image: url("../../../img/patitas.jpeg");
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 30px;
+}
 form{
     display: block;
     padding: 15px;
     background-color: rgba(206, 151, 106, 0.6);
+
+
 }
 @media (max-width:600px){
     body{
         font-size: 12px;
     }
+
 }

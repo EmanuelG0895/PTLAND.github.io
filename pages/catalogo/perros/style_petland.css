@@ -35,6 +35,12 @@ body {
 
 }
 
+.foto-detalles-modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
 
   .fila-perritos {

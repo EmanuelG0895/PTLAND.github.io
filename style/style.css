@@ -1,6 +1,6 @@
 body {
     background-image: url("../img/patitas.jpeg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -13,54 +13,45 @@ body {
     /**background-color: #FF813E;**/
     color: white;
     font-weight: bold;
-    padding: 15px;   
+    padding: 15px;
     text-align: center;
     font-size: 22px;
-    background-color: #dd7934;
-    -moz-opacity:.70;opacity:.70;
+    background-color: rgba(222, 155, 38, 0.6);
 }
 
 
-.contenedor-botones{
+.contenedor-botones {
     text-align: center;
 
 }
-.collapse{
+
+.collapse {
     display: flex;
     justify-content: center;
 }
-.boton2{
+
+.boton2 {
     text-align: center;
     margin-top: 25px;
 }
-.boton{
+
+.boton {
     margin: 50px;
-   
+
 }
 
-
-
-
- @media  (max-width:600px)  {
-    .quienesSomos{
+@media (max-width:600px) {
+    .quienesSomos {
         font-size: 12px;
     }
-    body{
-        background-repeat: repeat;
-    }
-    .boton{
+
+    .boton {
         margin: 10px;
     }
-  
-}
-@media  (max-width:768px)  {
-    .quienesSomos{
-        font-size: 12px;
-    }
-    body{
-        background-repeat: repeat;
-    }
-      
-  
 }
 
+@media (max-width:768px) {
+    .quienesSomos {
+        font-size: 12px;
+    }    
+}

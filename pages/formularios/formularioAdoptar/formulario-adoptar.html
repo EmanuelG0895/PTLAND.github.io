@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../../style/botstrap.min.css" />
     <title>Formulario</title>
 </head>
-
-<body>
+<body>  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="img/logo.jpeg" width="30" height="30" class="d-inline-block align-top">
-        <a class="navbar-brand" href="#">PETLAND</a>
+        <img src="../../../img/logo.jpeg" width="30" height="30" class="d-inline-block align-top">
+        <a class="navbar-brand" href="index.html">PETLAND</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,308 +21,298 @@
             <li class="nav-item active">
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Perros</a>
+              <a class="nav-link" href="pages/catalogo/perros/fichas.html">Perros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gatos</a>
+              <a class="nav-link" href="pages/catalogo/gatos/fichas_gatos.html">Gatos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Dar en adopción</a>
+              <a class="nav-link disabled" href="pages/formularios/formularioDarEnAdopcion/formulario-DarEnAdopcion.html">Dar en adopción</a>
             </li>
           </ul>
         </div>
       </nav>
-    <h3>Formato para ADOPTAR</h3>
+    <h1>Formato para ADOPTAR</h1>
     <form>
-        <h2>
-            <legend>Datos del adoptante</legend>
-        </h2>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" required="required">
-            <input type="text" class="form-control" placeholder="Correo" aria-label="Server" required="required">
-            <input type="text" class="form-control" placeholder="Teléfono" aria-label="Server" required="required">
-            <label for="username">Fecha de Nacimiento:</label>
-            <input type="date" name="depart" required="required" />
-        </div>
-        <div class="Genero">
-            <p>Genero
-                <br />
-                <input type="radio" name="especie" value="gato" />Hombre
-                <input type="radio" name="especie" value="perros" />Mujer
-            </p>
-        </div>
-        <div class="Estado civil">
-            <p>Estado civil
-                <br />
-                <input type="radio" name="especie" value="gato" />Soltero
-                <input type="radio" name="especie" value="perros" />Casado
-                <input type="radio" name="especie" value="gato" />Divorciado
-                <input type="radio" name="especie" value="perros" />Viudo
-            </p>
-        </div>
-        <div class="input-group mb-3">
-            <span class="input-group-text">Ocupacion</span>
-            <input type="text" class="form-control" placeholder="" aria-label="Username">
-            <span class="input-group-text">Direccion</span>
-            <input type="text" class="form-control" placeholder="" aria-label="Server">
-            <span class="input-group-text">Colonia</span>
-            <input type="text" class="form-control" placeholder="" aria-label="Server">
-            <span class="input-group-text">Codigo Postal(C.P)</span>
-            <input type="text" class="form-control" placeholder="" aria-label="Server"><br /><br />
-            <span class="input-group-text">Municipio</span>
-            <input type="text" class="form-control" placeholder="" aria-label="Server">
-            <span class="input-group-text">Estado</span>
-            <input type="text" class="form-control" placeholder="" aria-label="Server">
-        </div>
-        <div class="Punto de referencia">
-            <p>¿Entre qué calles o punto clave de la ciudad se encuentra su vivienda?
-                <input type="text" name="nombre" />
-            </p>
-        </div>
-        <div class="Mascota que te interesa adoptar">
-            <p>Mascota que te interesa adoptar
-                <input type="text" name="nombre" />
-            </p>
-        </div>
-        </fieldset>
-        <h3>Información adicional</h3>
-        <div class="informacion">
-            <p>¿Por que deceas adoptar?</p>
-            <textarea name="historia" cols="50" rows="10"></textarea>
-        </div>
-        </div>
-        <p>¿Cual sera el papel de la Mascota?</p>
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Compañero</option>
-            <option value="1">Entrenar a los niños</option>
-            <option value="2">Un regalo para otra persona</option>
-            <option value="3">Guardia y Proteccion</option>
-        </select>
-        <p>¿En donde Vivira la Mascota?</p>
-        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Casa con Patio</option>
-            <option value="1">Casa con Jardin</option>
-            <option value="2">Negocio</option>
-            <option value="3">Terreno</option>
-        </select>
-        <div class="Cantidad">
-            <p>¿Cuantas personas viven contigo?
-                <input type="text" name="color" />
-            </p>
-        </div>
-        <div class="form-check">
-            <p>¿Estan todos de acuerdo en Adoptar?
-                <br />
-                <input type="radio" name="form-check" value="si" /> Si
-                <input type="radio" name="form-check" value="no" /> No
-            </p>
-        </div>
-        <div class="pregunta1">
-            <p>¿Hay niños en tu hogar?
-                <br />
-                <input type="radio" name="pregunta1" value="si" /> Si
-                <input type="radio" name="pregunta1" value="no" /> No
-            </p>
-        </div>
-        <div class="pregunta2">
-            <p>¿Hay personas de la Tercera edad/o con capacidades diferentes?
-                <br />
-                <input type="radio" name="pregunta2" value="si" /> Si
-                <input type="radio" name="pregunta2" value="no" /> No
-            </p>
-        </div>
-        <div class="pregunta3">
-            <p>¿Alguien de tu familia o amistades tiene alergia a los animales?
-                <br />
-                <input type="radio" name="pregunta3" value="si" /> Si
-                <input type="radio" name="pregunta3" value="no" /> No
-            </p>
-        </div>
-        <div class="pregunta4">
-            <p>¿Tienes ahora mascota en tu casa?
-                <br />
-                <input type="radio" name="pregunta4" value="si" /> Si
-                <input type="radio" name="pregunta4" value="no" /> No
-            </p>
-        </div>
-        <div class="pregunta">
-            <p>Indica cada cuando Vacunas
-                <input type="text" name="pregunta" />
-            </p>
-        </div>
-        <div class="pregunta">
-            <p>Indica cada cuando Desparasitas
-                <br />
-                <input type="text" name="pregunta" />
-            </p>
-        </div>
-        <div class="pregunta5">
-            <p>¿Anteriormente has tenido mascota/s?
-                <br />
-                <input type="radio" name="pregunta5" value="si" /> Si
-                <input type="radio" name="pregunta5" value="No" />No
-            </p>
-        </div>
-        <div class="pregunta6">
-            <p>¿Alguna mascota tuya ha muerto en un accidente o se te ha escapado?
-                <br />
-                <input type="radio" name="pregunta6" value="si" /> Si
-                <input type="radio" name="pregunta6" value="No" />No
-            </p>
-        </div>
-        <div class="form-check">
-            <p>Señala los cuidados que tu y tu familia estarían dispuestos a darle al adoptado</p>
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Collar con placa de identificacion
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Limpiar sus desechos o arenero diariamente
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Paseos con correa (si es perro) o tiempo de juego (si es gato)
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Curso de entrenamiento (si lo requiere)
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Visitas periódicas al veterinario
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Cepillado frecuente de pelo
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Baños cada 3-4 semanas
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Agua de garrafón todos los días
-            </label>
-        </div>
-        <div class="form-check">
-            <p>Alimentacion diaria con</p>
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Croquetas
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Guisado preparado
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-            <label class="form-check-label" for="flexCheckChecked">
-                Sobras de comida
-            </label>
-        </div>
-        <div
-            class="¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?">
-            <p>¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y
-                respeto?
-                <br />
-                <input type="radio"
-                    name="¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?"
-                    value="si" /> Si
-                <input type="radio"
-                    name="¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?"
-                    value="No" />No es necesario
-            </p>
-        </div>
-        <div class="pregunta">
-            <p>¿Quién será el principal responsable de los cuidados y gastos de la mascota?
-                <input type="text" name="pregunta" />
-            </p>
-        </div>
-        <div class="pregunta7 ">
-            <p>¿Tienes médico veterinario de cabecera?
-                <br />
-                <input type="radio" name="pregunta7 " value="si" /> Si
-                <input type="radio" name="pregunta7 " value="No" />No
-            </p>
-        </div>
-        <div class="pregunta8">
-            <p>¿Cuentas con los recursos necesarios para cubrir sus gastos médicos alimenticios y cualquier emergencia
-                imprevista?
-                <br />
-                <input type="radio" name="pregunta8" value="si" /> Si
-                <input type="radio" name="pregunta8" value="No" />No
-            </p>
-        </div>
-        <div class="pregunta9 ">
-            <p>¿Estás dispuesto a darle a la mascota un periodo de ajuste para que conozca las reglas de la casa aprenda
-                en dónde debe de ir al baño y se adapte a la familia?
-                <br />
-                <input type="radio" name="pregunta9 " value="si" /> Si
-                <input type="radio" name="pregunta9 " value="No" />No
-            </p>
-        </div>
-        <div class="pregunta10">
-            <p>¿Crees poder tenerle paciencia ser constante en su educación y evitarás castigarla físicamente si al
-                principio no se comporta como tu lo esperas?
-                <br />
-                <input type="radio" name="pregunta10" value="si" /> Si
-                <input type="radio" name="pregunta10" value="No" />No
-            </p>
-        </div>
-        <div class="pregunta11">
-            <p>¿Estás de acuerdo en cuidar y atender a la mascota durante toda su vida? (10-15 años)
-                <br />
-                <input type="radio" name="pregunta11 " value="si" /> Si
-                <input type="radio" name="pregunta11 " value="No" />No
-            </p>
-        </div>
-        <div class="pregunta12">
-            <p>¿En caso de que la mascota sea cachorro ¿Aceptas la responsabilidad de educarlo y que de ti dependerá el
-                que se comporte correctamente?
-                <br />
-                <input type="radio" name="pregunta12 " value="si" /> Si
-                <input type="radio" name="pregunta12 " value="No" />No
-            </p>
-        </div>
-        <div class="pregunta13">
-            <p>¿Estás de acuerdo en Firmar un Contrato de Adopción respaldado por la Ley de Protección Animal del Estado
-                y los Códigos Municipales que amparan el bienestar de la mascota?
-                <br />
-                <input type="radio" name="pregunta13 " value="si" /> Si
-                <input type="radio" name="pregunta13 " value="No" />No
-            </p>
-        </div>
-        <div class="pregunta14">
-            <p>¿Cómo te enteraste de nosotros?
-                <br />
-                <input type="radio" name="pregunta14" value="Google" /> Google
-                <br /><input type="radio" name="pregunta14" value="Otra protectora" /> Otra protectora
-                <br /><input type="radio" name="pregunta14" value="Red Social (Facebook, Twitter)" /> Red Social
-                (Facebook, Twitter)
-                <br /><input type="radio" name="pregunta14" value="Recomendación" />Recomendación
-                <br /><input type="radio" name="pregunta14" value="Otro" /> Otro
-            </p>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+    <h2><legend>Datos del adoptante</legend></h2>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" required="required">
+        <input type="text" class="form-control" placeholder="Correo" aria-label="Server"required="required">
+        <input type="text" class="form-control" placeholder="Teléfono" aria-label="Server"required="required">
+        <label for="username">Fecha de Nacimiento:</label>
+        <input type="date" name="depart" required="required" />
+      </div>   
+                    <div class="Genero">
+                        <p>Genero
+                            <br/>
+                            <input type="radio" name="especie" value="gato"/>Hombre
+                            <input type="radio" name="especie" value="perros" />Mujer
+                        </p>
+                    </div>  
+                    <div class="Estado civil">
+                         <p>Estado civil
+                    <br />
+                        <input type="radio" name="especie" value="gato"/>Soltero
+                        <input type="radio" name="especie" value="perros" />Casado
+                        <input type="radio" name="especie" value="gato"/>Divorciado
+                        <input type="radio" name="especie" value="perros" />Viudo
+                          </p>
+                     </div> 
+                     <div class="input-group mb-3">
+                        <span class="input-group-text">Ocupacion</span>
+                        <input type="text" class="form-control" placeholder="" aria-label="Username">
+                        <span class="input-group-text">Direccion</span>
+                        <input type="text" class="form-control" placeholder="" aria-label="Server">
+                        <span class="input-group-text">Colonia</span>
+                        <input type="text" class="form-control" placeholder="" aria-label="Server">
+                        <span class="input-group-text">Codigo Postal(C.P)</span>
+                        <input type="text" class="form-control" placeholder="" aria-label="Server"><br/><br/>
+                        <span class="input-group-text">Municipio</span>
+                        <input type="text" class="form-control" placeholder="" aria-label="Server">
+                        <span class="input-group-text">Estado</span>
+                        <input type="text" class="form-control" placeholder="" aria-label="Server">
+                      </div>  
+                    <div class="Punto de referencia">
+                        <p>¿Entre qué calles o punto clave de la ciudad se encuentra su vivienda?
+                            <input type="text" name="nombre"/>
+                        </p>
+                    </div>
+                    <div class="Mascota que te interesa adoptar">
+                        <p>Mascota que te interesa adoptar
+                            <input type="text" name="nombre"/>
+                        </p>
+                    </div>
+                </fieldset>
+                        <h3>Información adicional</h3>
+                        <div class="informacion">
+                            <p>¿Por que deceas adoptar?</p>
+                            <textarea name="historia" cols="50" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <p>¿Cual sera el papel de la Mascota?</p>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Compañero</option>
+                        <option value="1">Entrenar a los niños</option>
+                        <option value="2">Un regalo para otra persona</option>
+                        <option value="3">Guardia y Proteccion</option>
+                      </select>
+                      <p>¿En donde Vivira la Mascota?</p>
+                      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Casa con Patio</option>
+                        <option value="1">Casa con Jardin</option>
+                        <option value="2">Negocio</option>
+                        <option value="3">Terreno</option>
+                      </select>
+                      <div class="Cantidad">
+                        <p>¿Cuantas personas viven contigo?
+                            <input type="text" name="color"/>
+                        </p>
+                    </div>
+                    <div class="form-check">
+                        <p>¿Estan todos de acuerdo en Adoptar?
+                            <br />
+                            <input type="radio" name="form-check" value="si"/> Si
+                            <input type="radio" name="form-check" value="no" /> No
+                           </p>
+                    </div>
+                    <div class="pregunta1">
+                        <p>¿Hay niños en tu hogar?
+                            <br />
+                            <input type="radio" name="pregunta1" value="si"/> Si
+                            <input type="radio" name="pregunta1" value="no" /> No
+                           </p>
+                    </div>
+                    <div class="pregunta2">
+                        <p>¿Hay personas de la Tercera edad/o con capacidades diferentes?
+                            <br />
+                            <input type="radio" name="pregunta2" value="si"/> Si
+                            <input type="radio" name="pregunta2" value="no" /> No
+                           </p>
+                    </div>
+                    <div class="pregunta3">
+                        <p>¿Alguien de tu familia o amistades tiene alergia a los animales?
+                            <br />
+                            <input type="radio" name="pregunta3" value="si"/> Si
+                            <input type="radio" name="pregunta3" value="no" /> No
+                           </p>
+                    </div>
+                    <div class="pregunta4">
+                        <p>¿Tienes ahora mascota en tu casa?
+                            <br />
+                            <input type="radio" name="pregunta4" value="si"/> Si
+                            <input type="radio" name="pregunta4" value="no" /> No
+                           </p>
+                    </div>
+                    <div class="pregunta">
+                        <p>Indica cada cuando Vacunas
+                            <input type="text" name="pregunta"/>
+                        </p>
+                    </div>
+                    <div class="pregunta">
+                        <p>Indica cada cuando Desparasitas
+                            <br />
+                            <input type="text" name="pregunta"/>
+                        </p>
+                    </div>
+                    <div class="pregunta5">
+                        <p>¿Anteriormente has tenido mascota/s?
+                            <br />
+                            <input type="radio" name="pregunta5" value="si"/> Si
+                            <input type="radio" name="pregunta5" value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta6">
+                        <p>¿Alguna mascota tuya ha muerto en un accidente o se te ha escapado?
+                            <br />
+                            <input type="radio" name="pregunta6" value="si"/> Si
+                            <input type="radio" name="pregunta6" value="No" />No
+                           </p>
+                    </div>
+                    <div class="form-check">
+                        <p>Señala los cuidados que tu y tu familia estarían dispuestos a darle al adoptado</p>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Collar con placa de identificacion
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Limpiar sus desechos o arenero diariamente
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Paseos con correa (si es perro) o tiempo de juego (si es gato)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Curso de entrenamiento (si lo requiere)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Visitas periódicas al veterinario
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Cepillado frecuente de pelo
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Baños cada 3-4 semanas
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Agua de garrafón todos los días
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <p>Alimentacion diaria con</p>
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Croquetas
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Guisado preparado
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Sobras de comida
+                        </label>
+                      </div>
+                      <div class="¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?">
+                        <p>¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?
+                            <br />
+                            <input type="radio" name="¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?" value="si"/> Si
+                            <input type="radio" name="¿Estás de acuerdo en que cuidar de un animal también significa darle cariño confianza seguridad y respeto?" value="No" />No es necesario
+                           </p>
+                    </div>
+                    <div class="pregunta">
+                        <p>¿Quién será el principal responsable de los cuidados y gastos de la mascota?
+                            <input type="text" name="pregunta"/>
+                        </p>
+                    </div>
+                    <div class="pregunta7 ">
+                        <p>¿Tienes médico veterinario de cabecera? 
+                            <br />
+                            <input type="radio" name="pregunta7 " value="si"/> Si
+                            <input type="radio" name="pregunta7 " value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta8">
+                        <p>¿Cuentas con los recursos necesarios para cubrir sus gastos médicos alimenticios y cualquier emergencia imprevista?
+                            <br />
+                            <input type="radio" name="pregunta8" value="si"/> Si
+                            <input type="radio" name="pregunta8" value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta9 ">
+                        <p>¿Estás dispuesto a darle a la mascota un periodo de ajuste para que conozca las reglas de la casa aprenda en dónde debe de ir al baño y se adapte a la familia? 
+                            <br />
+                            <input type="radio" name="pregunta9 " value="si"/> Si
+                            <input type="radio" name="pregunta9 " value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta10">
+                        <p>¿Crees poder tenerle paciencia ser constante en su educación y evitarás castigarla físicamente si al principio no se comporta como tu lo esperas?
+                            <br />
+                            <input type="radio" name="pregunta10" value="si"/> Si
+                            <input type="radio" name="pregunta10" value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta11">
+                        <p>¿Estás de acuerdo en cuidar y atender a la mascota durante toda su vida? (10-15 años)
+                            <br />
+                            <input type="radio" name="pregunta11 " value="si"/> Si
+                            <input type="radio" name="pregunta11 " value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta12">
+                        <p>¿En caso de que la mascota sea cachorro ¿Aceptas la responsabilidad de educarlo y que de ti dependerá el que se comporte correctamente? 
+                            <br />
+                            <input type="radio" name="pregunta12 " value="si"/> Si
+                            <input type="radio" name="pregunta12 " value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta13">
+                        <p>¿Estás de acuerdo en Firmar un Contrato de Adopción respaldado por la Ley de Protección Animal del Estado y los Códigos Municipales que amparan el bienestar de la mascota? 
+                            <br />
+                            <input type="radio" name="pregunta13 " value="si"/> Si
+                            <input type="radio" name="pregunta13 " value="No" />No
+                           </p>
+                    </div>
+                    <div class="pregunta14">
+                        <p>¿Cómo te enteraste de nosotros?
+                            <br />
+                            <input type="radio" name="pregunta14" value="Google"/> Google
+                            <br/><input type="radio" name="pregunta14" value="Otra protectora" /> Otra protectora
+                            <br/><input type="radio" name="pregunta14" value="Red Social (Facebook, Twitter)"/> Red Social (Facebook, Twitter)
+                            <br/><input type="radio" name="pregunta14" value="Recomendación" />Recomendación
+                            <br/><input type="radio" name="pregunta14" value="Otro" /> Otro
+                           </p>
+                    </div>
     </form>
+<form method="=get" action="../Pages/Adoptado.html">
+    <input type="submit" value="Enviar">
+</form>
+    <script src="../JavaScript/jquery.slim.min.js"></script>
+    <script src="../JavaScript/poper.js"></script>
+    <script src="../JavaScript/bootstrap.js"></script>
 </body>
-
 </html>
