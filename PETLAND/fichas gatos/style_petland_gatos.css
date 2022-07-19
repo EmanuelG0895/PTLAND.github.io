@@ -1,0 +1,35 @@
+body {
+  background-image: url("../imagenes/fondo.jpeg") !important;
+  background-repeat:repeat;
+  background-size: cover;
+  
+}
+.card-title{
+text-align: center;
+}
+.card-body{
+text-align: center;
+background-color: #f3f2ee;
+}
+.img-card{
+  width: 100%;
+  border-top-left-radius:8px ;
+  border-top-right-radius: 8px;
+  height:159.41px;
+}
+
+.tarjeta{
+  width: 18rem;
+  margin-top: 50px;
+  border: solid;
+  border-color:#fecb72;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+
+  .fila-gatos {
+    display: flex;
+    flex-direction: column;
+  }
+}
